@@ -1,0 +1,7 @@
+1>  for compile
+
+	-> javac file_name
+
+2>  for run
+	
+	-> java file_name

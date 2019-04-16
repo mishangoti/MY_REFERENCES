@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Animate-Plus.js Plugin Demos</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale: 1.0, user-scalable=no" />
+<link rel="stylesheet" href="css/reset.min.css" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/animate.css" />
+<link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang="></script>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="animate-plus.js"></script>
+<script type="text/javascript">
+            $(document).ready(function()
+            {
+                $("#description button").click(function()
+                {
+                    var groupName = $(this).attr("data-group-name");
+                    $(".animated[data-animation-group="+groupName+"]").restartAnimation();
+                });
+            });
+        </script>
+</head>
+<body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/animation/Animate-Html-Elements-with-jQuery-animate-css-Animate-Plus-js.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div itemscope itemtype="http://schema.org/SoftwareApplication" id="main" style="margin-top:150px;">
+<header>
+<h1 itemprop="name">jQuery Animate-Plus.js Plugin </h1>
+<h2>&nbsp;</h2>
+</header>
+<article id="description">
+<div id="liveExamplesWrapper">
+<div class="example">
+<p> Just one element with multiple animations. </p>
+<span class="animate-plus" data-animation-group="1" data-animations="bounceIn,shake,fadeOutRight,fadeIn">Animate-plus.js</span>
+<button data-group-name="1">Restart animation</button>
+<pre class="prettyprint">&lt;span class=&quot;animate-plus&quot; data-animations=&quot;bounceIn,shake,fadeOutRight,fadeIn&quot;&gt;Animate-plus.js&lt;/span&gt;</pre>
+</div>
+<div class="example">
+<p> One element looping indefinitely. </p>
+<span class="animate-plus" data-animations="bounceIn, fadeOutLeft" data-animation-repeat="true">Animate-plus.js</span>
+<pre class="prettyprint">&lt;span class=&quot;animate-plus&quot; data-animations=&quot;bounceIn, fadeOutLeft&quot; data-animation-repeat=&quot;true&quot;&gt;Animate-plus.js&lt;/span&gt;</pre>
+</div>
+<div class="example">
+<p> Group of 2 elements, animated in a specified order. </p>
+<span
+                            class="animate-plus"
+                            data-animation-group="2"
+                            data-animations="bounceIn, fadeOutLeft"
+                            data-animation-order="1,3"
+                        > Animate-plus.js </span> <span
+                            class="animate-plus"
+                            data-animation-group="2"
+                            data-animations="tada, fadeOutRight"
+                            data-animation-order="2,3"
+                        > Animate-plus.js </span>
+<button data-group-name="2">Restart animation</button>
+<pre class="prettyprint">&lt;span<br/>    class=&quot;animate-plus&quot;<br/>    data-animation-group=&quot;group1&quot;<br/>    data-animations=&quot;bounceIn, fadeOutLeft&quot;<br/>    data-animation-order=&quot;1,3&quot;<br/>&gt;<br/>    Animate-plus.js<br/>&lt;/span&gt;<br/><br/>&lt;span<br/>    class=&quot;animate-plus&quot;<br/>    data-animation-group=&quot;group1&quot;<br/>    data-animations=&quot;tada, fadeOutRight&quot;<br/>    data-animation-order=&quot;2,3&quot;<br/>&gt;<br/>    Animate-plus.js<br/>&lt;/span&gt;</pre>
+</div>
+<div class="example">
+<p> Group of 2 elements, animated with specified duration and delay. </p>
+<span
+                                class="animate-plus"
+                                data-animation-group="3"
+                                data-animations="bounceIn, fadeOutLeft"
+                                data-animation-duration="3s,5s"
+                            > Animate-plus.js </span> <span
+                                class="animate-plus"
+                                data-animation-group="3"
+                                data-animations="tada, fadeOutRight"
+                                data-animation-delay="0s,2s"
+                            > Animate-plus.js </span>
+<button data-group-name="3">Restart animation</button>
+<pre class="prettyprint">&lt;span<br/>    class=&quot;animate-plus&quot;<br/>    data-animation-group=&quot;group2&quot;<br/>    data-animations=&quot;bounceIn, fadeOutLeft&quot;<br/>    data-animation-duration=&quot;3s,5s&quot;<br/>&gt;<br/>    Animate-plus.js<br/>&lt;/span&gt;<br/><br/>&lt;span<br/>    class=&quot;animate-plus&quot;<br/>    data-animation-group=&quot;group2&quot;<br/>    data-animations=&quot;tada, fadeOutRight&quot;<br/>    data-animation-delay=&quot;0s,2s&quot;<br/>&gt;<br/>    Animate-plus.js<br/>&lt;/span&gt;</pre>
+</div>
+<div class="example">
+<p> One element that animates when it's visible on screen (ex. on scroll). The animation resets when the element goes off screen. </p>
+<span
+                            class="animate-plus"
+                            data-animations="tada"
+                            data-animation-when-visible="true"
+                            data-animation-reset-offscreen="true"
+                        > Animate-plus.js </span>
+<pre class="prettyprint">&lt;span<br/>    class=&quot;animate-plus&quot;<br/>    data-animations=&quot;tada&quot;<br/>    data-animation-when-visible=&quot;true&quot;<br/>    data-animation-reset-offscreen=&quot;true&quot;<br/>&gt;<br/>    Animate-plus.css<br/>&lt;/span&gt;</pre>
+</div>
+</div>
+</article>
+<div id="stats"> Last updated on <span itemprop="datePublished" content="2014-05-17"> 17/05/2014 by </span> <a href="http://telmo.pt/" target="_blank" rel="nofollow"> <span itemprop="author" itemscope itemtype="http://schema.org/Person"> <span itemprop="name"> Telmo Marques </span> </span> </a>. </div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

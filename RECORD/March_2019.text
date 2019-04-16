@@ -1,0 +1,135 @@
+========================================================================================================================
+||	Date of creation: 1/3/2019(March)																				  ||
+||	name: Mishan Goti																								  ||
+||	TAGS																											  ||
+||	{																												  ||
+||		"HALF LEAVE" : "IT MEANS TAKEN FULL DAY LEAVE";																  ||
+||		"FULL LEAVE" : "IT MEANS TAKEN HALF DAY LEAVE";    															  ||
+||		"NEW" : "IT MEANS START NEW TECHNOLOGY OR FRAMWORK OR "														  ||
+||	}																												  ||
+========================================================================================================================
+day-45(4/3/2019)
+FULL LEAVE
+	------------------------------------------------------------------------------------------------------------------
+day-46(5/3/2019)
+FULL LEAVE
+	------------------------------------------------------------------------------------------------------------------
+	day-47(6/3/2019)
+	-> crud operation
+	-> how to debug in node
+	-> error handling
+	------------------------------------------------------------------------------------------------------------------
+	day-48(7/3/2019)
+	-> exception handling
+	-> handle 404 error
+	-> Flash massages package
+	-> dateFormate
+	------------------------------------------------------------------------------------------------------------------
+	day-49(8/3/2019)
+	-> login and registration
+	-> all kind of validations
+	-> using  (mysql, jquery, ejs, bootstrap, body-parser, bcryptjs, connect-flash)
+	------------------------------------------------------------------------------------------------------------------	day-50(9/3/2019)
+	-> forgot pass using mail
+	-> integration in to bootstrap admin panel
+	-> data base design for demo (products, categorys, orders)
+	-> multy role login
+	------------------------------------------------------------------------------------------------------------------
+	day-51(11/3/2019)
+	-> insert, update, edit, delete, in project2
+	-> file upload with multer
+	-> dynamic slider
+	------------------------------------------------------------------------------------------------------------------
+	day-52(12/3/2019)
+	-> manage slider
+	-> R&D available modules 
+	-> routes with single route
+	------------------------------------------------------------------------------------------------------------------
+	day-53(13/3/2019)
+	-> R&D on pusher
+	-> npm pusher
+	------------------------------------------------------------------------------------------------------------------
+	day-54(14/3/2019)
+	-> cart in ajax in nodejs
+	-> work on ecommerce project2
+	------------------------------------------------------------------------------------------------------------------
+day-55(15/3/2019)
+FULL LEAVE
+	------------------------------------------------------------------------------------------------------------------
+	day-56(18/3/2019)
+	-> cart update
+	-> paypal payment integration with sendbox account
+	------------------------------------------------------------------------------------------------------------------
+	day-57(19/3/2019)
+	-> check out module in cart
+	-> pay amount of the cart
+	-> R&D on finalyear project
+	------------------------------------------------------------------------------------------------------------------
+	day-58(20/3/2019)
+	-> add delivery address
+	-> after payment drop entry in order table
+
+	------------------------------------------------------------------------------------------------------------------
+	day-59(22/3/2019)
+	Nodejs Demo Project
+	customer side
+	-> after payment drop entry in order table
+	admin side
+	-> all order listing in admin / approve / disapprove
+	-> manage users in admin
+	saller side
+	-> list products which is added by saller
+	-> list orders which is get by saller with dispatch status
+	------------------------------------------------------------------------------------------------------------------
+	day-60(23/3/2019)
+	Nodejs Demo Project
+	seller side
+	-> add products
+	-> add product fetcher image
+	-> edit product
+	-> delete product
+	-> publish product button
+	-> dispatch button 
+	customer side
+	-> show published products only
+	------------------------------------------------------------------------------------------------------------------
+	day-61(25/3/2019)
+	Nodejs Demo Project
+	customer side
+	-> client side filter by category and price
+	-> server side filter with ajax call 
+	-> add product tags for search 
+	------------------------------------------------------------------------------------------------------------------
+	day-62(26/3/2019)
+	Nodejs Demo Project
+	-> change in database for orders and order_slot
+	saller side
+	-> use tagmanager.js for dynamic tag
+	-> edit tags and ajax delete tags
+	-> changes in design
+	customer side
+	-> search product by keyword, tags etc
+	-> changes in design
+	-> payment cancel link managed
+	------------------------------------------------------------------------------------------------------------------
+	day-63(27/3/2019)
+	Nodejs Demo Project
+	-> paypal bug - solved
+	-> database - updated
+	-> drop order entry - ongoing
+	-> multyple order - done
+	------------------------------------------------------------------------------------------------------------------
+	day-63(28/3/2019)
+	Nodejs Demo Project
+	customer side
+	-> track order - done
+	-> listing order on track page - done
+	-> track status design - done
+	-> multyple orders track by single customer - done	------------------------------------------------------------------------------------------------------------------
+day-64(29/3/2019)
+HALF LEAVE
+	Nodejs Demo Project
+	saller side
+	-> listing of all order which he got - done
+	-> order prepare status update - done
+	-> R&D on mongo db, angular 

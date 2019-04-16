@@ -1,0 +1,152 @@
+========================================================================================================================
+||	Date : 1/2/2019 (February)																						  ||
+||	name: Mishan Goti																								  ||
+||	TAGS																											  ||
+||	{																												  ||
+||		"HALF LEAVE" : "IT MEANS TAKEN FULL DAY LEAVE";																  ||
+||		"FULL LEAVE" : "IT MEANS TAKEN HALF DAY LEAVE";    															  ||
+||		"NEW" : "IT MEANS START NEW TECHNOLOGY OR FRAMWORK OR "														  ||
+||	}																												  ||
+========================================================================================================================
+
+	day-22(1/2/2019)
+	-> Laravel (Api & resources)
+
+	Assignment
+	-> Design laravel api with api.php and resources
+	------------------------------------------------------------------------------------------------------------------
+DAY-23(2/2/2019)
+-> TRIP TO TIRUPATI PARK
+	------------------------------------------------------------------------------------------------------------------
+	day-24(4/2/2019) implimented on mishan_laravel /&&/ implimented on slimapi
+	-> 
+
+	Assignment
+	-> self assign 
+	-> make api using SLIM FRAMEWORK
+	-> upgrad mishan_laravel project security
+	------------------------------------------------------------------------------------------------------------------
+	day-25(5/2/2019) 
+	-> No Class
+
+	Assignment
+	-> self assign
+	-> mail in laravel
+	------------------------------------------------------------------------------------------------------------------
+	day-26(6/2/2019) 
+	-> No Class
+
+	Assignment
+	-> self assign
+	-> mail in laravel
+	-> reset password in mail
+	------------------------------------------------------------------------------------------------------------------
+	day-27(7/2/2019) 
+-> TAKE HALF LEAVE
+-> MID SEM EXAM IN COLLAGE
+	Assignment
+	-> self assign
+	-> image upload using api
+	-> R&D
+	------------------------------------------------------------------------------------------------------------------
+	day-28(8/2/2019) 
+-> TAKE FULL LEAVE 
+-> MID SEM EXAM IN COLLAGE
+	------------------------------------------------------------------------------------------------------------------
+	day-29(9/2/2019) 
+-> TAKE FULL LEAVE
+-> MID SEM EXAM IN COLLAGE 
+	------------------------------------------------------------------------------------------------------------------
+	day-30(11/2/2019) 
+-> TAKE FULL LEAVE
+-> MID SEM EXAM IN COLLAGE 
+	------------------------------------------------------------------------------------------------------------------
+	day-31(12/2/2019) 
+	-> Relation examples
+	
+	Assignment
+	-> Practice All Relations 
+	------------------------------------------------------------------------------------------------------------------
+	day-32(13/2/2019) 
+	-> Custome Api Authorization using Token
+	-> Laravel Query
+
+	Assignment
+	-> Practice Api Auth Using Token
+	-> Practice Laravel Query Developing
+	------------------------------------------------------------------------------------------------------------------
+	day-33(14/2/2019) 
+	-> Multifile Upload in API
+	-> logs 
+
+	Assignment
+	-> impliment multifile upload in api
+	-> R&D on Laravel and crone jobs		
+	------------------------------------------------------------------------------------------------------------------
+	day-34(15/2/2019) 
+	-> imposrt csv to laravel and insert data using csv
+	-> how crone jobs works
+
+	Assignment
+	-> impliment insert data using csv
+	-> R&D
+	------------------------------------------------------------------------------------------------------------------
+	day-34(15/2/2019) 
+-> LARAVEL CLASS OVER
+
+	------------------------------------------------------------------------------------------------------------------
+	day-35(18/2/2019)
+	-> Sms in laravel
+	-> 
+	------------------------------------------------------------------------------------------------------------------
+	day-36(19/2/2019)
+	-> Chating application in php and ajax 
+	------------------------------------------------------------------------------------------------------------------
+	day-37(20/2/2019)
+-> TESTING CLASS 1
+	-> all things about testing, and need to keep in mind 
+	------------------------------------------------------------------------------------------------------------------
+	day-38(21/2/2019)
+	-> find perminent solution of composer and xampp and php
+	-> bug solve in laravel_project in bulkmailer
+	-> design blogs
+	------------------------------------------------------------------------------------------------------------------
+	day-39(22/2/2019)
+	-> captcha => 
+	-> generate QR CODE => https://www.simplesoftware.io/simple-qrcode/
+	-> scane QR CODE by uploading image => https://www.myphpnotes.com/post/generate-qrcodes-in-php
+	-> generate BAR COde
+	-> html to pdf => https://laravelcode.com/post/how-to-convert-html-to-pdf-laravel-54
+		
+	------------------------------------------------------------------------------------------------------------------
+	day-40(23/2/2019)
+	-> Multifile upload => https://pqina.nl/filepond/
+	-> Final year project work
+	------------------------------------------------------------------------------------------------------------------
+	day-41(25/2/2019)
+	-> ela admin set up in laravel
+	-> login
+	-> register
+	-> middleware
+	------------------------------------------------------------------------------------------------------------------
+day-42(26/2/2019)
+NEW: NODE.JS 
+	-> installation nodejs, npm
+	-> modules, how to create, how to use, how to use function in diffrent file, how to export and import modules
+	-> starting tutorialpoint nodejs
+	------------------------------------------------------------------------------------------------------------------
+	day-43(27/2/2019)
+	-> file system
+	-> event loop
+	-> buffer
+	-> streams
+	-> callback concept
+	-> global objects
+	-> utility modules
+	-> web module
+	-> Routes of link and pages 			-> implimeted on (nodejs_demo)
+	-> Login and Registration using mysql   -> implimeted on (nodejs_login)
+	------------------------------------------------------------------------------------------------------------------
+	day-44(28/2/2019)
+	-> crud operation with mysql and nodejs
+	-> api with mysql

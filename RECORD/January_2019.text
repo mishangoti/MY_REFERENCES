@@ -1,0 +1,159 @@
+========================================================================================================================
+||	Date of creation: 3/1/2019(January) 																			  ||
+||	Date of Class starting: 3/1/2019																				  ||
+||	name: Mishan Goti																								  ||
+||	TAGS																											  ||
+||	{																												  ||
+||		"HALF LEAVE" : "IT MEANS TAKEN FULL DAY LEAVE";																  ||
+||		"FULL LEAVE" : "IT MEANS TAKEN HALF DAY LEAVE";    															  ||
+||		"NEW" : "IT MEANS START NEW TECHNOLOGY OR FRAMWORK OR "														  ||
+||	}																												  ||
+========================================================================================================================
+day-3(3/1/2019) implimented on task-3
+	-> validation
+	-> naming
+	-> data analysis/ requirement
+	-> function/ classes/ objects
+	-> Exception handling
+	-> Coding standard
+	-> Testing/ test case
+	-> Data dictionary
+
+	Assignment
+	-> make login system of user and user can have multiple business. using above mantioned concepts
+	------------------------------------------------------------------------------------------------------------------
+	day-4(4/1/2019) implimented on task-3
+	->oop concepts
+	->html div structure
+	->database query (join, in)
+
+	Assignment
+	-> complite day-3 task
+	-> also include password encription, decription, validation, try catch
+	------------------------------------------------------------------------------------------------------------------
+	day-5(7/1/2019) implimented on task-3
+	-> Mysql -Relation view, -ondelete/onupdate -restriction, -cascade, -setnull, -noaction
+	-> Name space
+	-> use statement
+
+	Assignment
+	-> build model for category and it hase subcate
+	-> Image uploading
+	-> use mysql
+	------------------------------------------------------------------------------------------------------------------
+	day-6(8/1/2019) implimented on task-3
+	-> dynamic html
+	-> multy arry(for api)
+	-> logic of category
+
+	Assignment
+	-> make your project in dynamic html form
+	-> multiple file upload
+	-> impliment category
+	------------------------------------------------------------------------------------------------------------------
+	day-7(9/1/2019) implimented on task-4
+	-> Jacescript
+	-> Jquery
+
+	Assignment
+	-> enter multyple texts from one text field and put check box on it
+	-> now submit checked text
+
+	Self Assign Assignment
+	-> Go throw all javascript and jquery concepts and tricks and functions which are available in w3shools.
+	------------------------------------------------------------------------------------------------------------------
+	day-8(10/1/2019) implimented on task-5
+	-> ajex(jquery)
+
+	Assignment
+	-> create an offers with ajax and form validation
+	-> use date picker or date range picker for offer start_date and end_date
+	-> also use dropzon for offer image upload
+	------------------------------------------------------------------------------------------------------------------
+day-9(11/1/2019) implimented on task-6
+NEW: MVC
+	-> MVC
+
+	Assignment
+	-> Understand Mvc structure
+
+	Self Assign Assignment
+	-> Make onestructure
+	-----------------------------------------------------------------------------------------------------------------
+day-10(16/1/2019) 
+FULL LEAVE
+	-----------------------------------------------------------------------------------------------------------------
+	day-11(17/1/2019) implimented on 1MVC
+	-> MVC
+
+	Assignment
+	-> Create MCV structure
+	-----------------------------------------------------------------------------------------------------------------
+	day-12(17/1/2019) implimented on 1MVC
+	-> MVC (model, view)
+
+	Assignment
+	-> impliment model and view and make understand by making demo.
+	-----------------------------------------------------------------------------------------------------------------
+day-13(21/1/2019) 
+NEW: LARAVEL
+-> Laravel (migration)
+	
+	Assignment
+	-> read migration
+	-> read folder structure
+	-> make project with (database, migration, up function, down function, update, delete, alter etc)
+	-----------------------------------------------------------------------------------------------------------------
+	day-14(22/1/2019) implimented on Mishan_Laravel
+	-> Laravel (auth)
+
+	Assignment
+	-> read auth
+	-> make login and add field in registration page
+	-----------------------------------------------------------------------------------------------------------------	
+	day-15(23/1/2019) implimented on Mishan_Laravel
+	-> Laravel (seeder)	
+	-> Laravel (fectory)	
+	-> Laravel (model)	
+	-> Laravel (controller)	
+	-> Laravel (routs)	
+
+	Assignment
+	-> Impliment Seeder
+	-> Further Impliment by your self
+	------------------------------------------------------------------------------------------------------------------
+	day-16(24/1/2019) implimented on Mishan_Laravel
+	-> Laravel (CRUD Using resource and individual route)
+
+	Assignment
+	-> impliment CRUD
+	-> Further Impliment by your self
+	------------------------------------------------------------------------------------------------------------------
+	day-17(25/1/2019) implimented on Mishan_Laravel
+	-> middle ware
+	-> relations
+	-> multi roll login using one login page
+
+	Assignment
+	-> Impliment Middle ware
+	-> Further Impliment by your self
+	------------------------------------------------------------------------------------------------------------------
+	day-18(28/1/2019) implimented on final_year
+	-> Collage Project Work
+	-> Project Name: Malaria Pridection System Using Weather Data
+	------------------------------------------------------------------------------------------------------------------
+	day-19(29/1/2019) implimented on final_year
+	-> Collage Project Work
+	-> Project Name: Malaria Pridection System Using Weather Data
+	------------------------------------------------------------------------------------------------------------------
+	day-20(30/1/2019) implimented on mishan_laravel 
+	-> laravel (Database Relations)
+
+	Assignment
+	-> Impliment on mishan_laravel
+	------------------------------------------------------------------------------------------------------------------
+day-21(31/1/2019) implimented on mishan_laravel
+-> Laravel (Api Resources)
+Assignemet
+-> HALF LEAVE 
+	------------------------------------------------------------------------------------------------------------------

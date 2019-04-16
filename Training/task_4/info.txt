@@ -1,0 +1,14 @@
+Name: Mishan Goti
+task: 4
+day-7(9/1/2019)
+-> Jacescript
+-> Jquery
+-> Ajex
+
+Assignment
+-> enter multyple texts from one text field and put check box on it
+-> now submit checked text 
+
+
+
+

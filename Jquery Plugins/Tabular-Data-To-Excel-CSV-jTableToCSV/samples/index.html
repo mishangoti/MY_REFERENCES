@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>jQuery jTableToCSV.js: Table To CSV Converter Example</title>
+
+		<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.1/darkly/bootstrap.min.css">
+		<style>
+			.container {
+				margin: 150px auto;
+			}
+		    .ttcsv_triggers--wrapper button, .ttcsv_triggers--wrapper a {
+		    	display: block;
+		    	width: auto;
+		    	border: none;
+		    	background: #ededed;
+		    	padding: 5px 10px;
+		    	margin: 10px;
+		    	text-align: center;
+		    }
+		    .ttcsv_triggers--wrapper button svg, .ttcsv_triggers--wrapper a svg {
+		    	margin-right: 6px;
+		    	max-height: 20px;
+		    	vertical-align: top;
+		    }
+		</style>
+
+	</head>
+
+
+	<body>
+
+		<main class="container">
+			<h1>jQuery jTableToCSV.js: Table To CSV Converter Example</h1>
+			<table class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Name</th>
+						<th>Job</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>2</td>
+						<td>John</td>
+						<td>Teacher</td>
+						<td>Handsome</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>Jane</td>
+						<td>Mechanic</td>
+						<td>Quiet</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Mike</td>
+						<td>Plumber</td>
+						<td>Talkative</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>David</td>
+						<td>Manager</td>
+						<td>Shy</td>
+					</tr>
+				</tbody>
+			</table>
+		</main>
+
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+
+		<!-- CSV Export -->
+		<script type="text/javascript" src="jTableToCSV.js"></script>
+		<script type="text/javascript">
+			(function($){
+				var etc = $('table').elementToCSV();
+			})(jQuery);
+		</script>
+	</body>
+</html>

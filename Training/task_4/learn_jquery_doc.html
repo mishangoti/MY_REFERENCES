@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn Jquery Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+	<script>
+		$(document).ready(function(){
+			// practical 1.
+			$(".first").click(function(){
+			    $(this).hide();
+			});	
+			//practical 2.
+			$(".second").dblclick(function(){
+			    $(this).hide();
+			});
+			//practical 3.
+			$("#third").mouseenter(function(){
+			    alert("You entered third!");
+			});
+			//practical 4.
+			$("#four").mouseleave(function(){
+			    alert("You entered four!");
+			});
+			//practical 5.
+			$("#five").mousedown(function(){
+			    alert("Mouse down over five!");
+			});
+			// 
+			// 
+			//practical 8.
+			$(".eight").focus(function(){
+			    $(this).css("background-color", "#cccccc");
+			});
+			$(".eight").blur(function(){
+			    $(this).css("background-color", "#ffffff");
+			});
+
+		});
+	</script>
+</head>
+<body>
+	<center><h1>This are events</h1></center>
+	<label><b>practical 1. FUNCTION NAME : click() and hide()</b> in hide(speed)</label><br>
+		<div>
+			<p class="first">If you click on me, I will disappear.</p>
+			<p class="first">Click me away!</p>
+			<p class="first">Click me too!</p>
+		</div>
+	<label> <b> practical 2. FUNCTION NAME : dblclick() and hide()</b></label><br>
+		<div>
+			<p class="second">If you click on me, I will disappear.</p>
+			<p class="second">Click me away!</p>
+			<p class="second">Click me too!</p>
+		</div>
+	<label> <b> practical 3. FUNCTION NAME : mouseenter()</b></label><br>
+		<div>
+			<p id="third">Enter this paragraph. </p>
+		</div>
+	<label> <b> practical 4. FUNCTION NAME : mouseleave()</b></label><br>
+		<div>
+			<p id="four">live this paragraph.</p>
+		</div>
+	<label> <b> practical 5. FUNCTION NAME : mousedown()</b></label><br>
+		<div>
+			<p id="five">click this paragraph. </p>
+		</div>
+	<label> <b> practical 6. FUNCTION NAME : mouseup() and hover()</b></label><br>
+	<label> <b> practical 7. FUNCTION NAME : $(selector).on('event_name',function(){}); EX=> $("#seven").on('click',function(){});</b></label><br>
+	<label> <b> practical 8. FUNCTION NAME : focus() and blur()</b></label><br>
+		<div>
+			Name: <input type="text" name="fullname" class="eight"><br>
+			Email: <input type="text" name="email" class="eight">
+		</div>
+	<label> <b> practical 9. FUNCTION NAME : toggle()</b></label><br>
+	<label> <b> practical 10. FUNCTION NAME : slideDown(), slideUp(), slideToggle()</b></label><br>
+	<label> <b> practical 11. FUNCTION NAME : animate()</b></label><br>
+		<div>
+			<p>perameters:</p>
+			<pre>
+				animate({
+				    left: '250px',
+				    opacity: '0.5',
+				    height: '150px',
+				    width: '150px',
+				    fontSize: '10px'
+				});
+			</pre>
+			<p>use of toggle in animate()</p>
+			<pre>
+				animate({
+			    	width: 'toggle',
+			    	height: 'toggle'
+			    });
+			</pre>
+			<p>use of time in animate()</p>
+			<pre>
+				animate({
+			      	width: 'toggle',
+			      	height: 'toggle'
+			    }, "100");
+
+			    i.e. '100' any number or slow of fast 
+			</pre>
+		</div>
+	<label> <b> practical 12. FUNCTION NAME : stop()</b></label><br>
+	<label> <b> practical 13. FUNCTION NAME : text()</b></label><br>
+		<div>
+			<p>this function is use for set TEXT in any existing tag</p>
+		</div>
+	<label> <b> practical 14. FUNCTION NAME : val()</b></label><br>
+		<div>
+			<p>this function is for GET value from INPUT field</p>
+		</div>
+	<label> <b> practical 15. FUNCTION NAME : html()</b></label><br>
+		<div>
+			<p>this function is for PRINT HTML TAG</p>
+		</div>
+	<label> <b> practical 16. FUNCTION NAME : attr()</b></label><br>
+		<div>
+			<p>this function if for GET ATTRIBUTE OF perticuler tag i.e. => $(selector).attr("any available	 attribute")</p>
+		</div>
+	<label> <b> practical 17. FUNCTION NAME : append()</b></label><br>
+	<label> <b> practical 18. FUNCTION NAME : prepend()</b></label><br>
+	<label> <b> practical 19. FUNCTION NAME : after()</b></label><br>
+	<label> <b> practical 20. FUNCTION NAME : before()</b></label><br>
+	<label> <b> practical 21. FUNCTION NAME : remove()</b></label><br>
+	<label> <b> practical 22. FUNCTION NAME : empty()</b></label><br>
+	<label> <b> practical 23. FUNCTION NAME : addClass()</b></label><br>
+	<label> <b> practical 24. FUNCTION NAME : removeClass()</b></label><br>
+	<label> <b> practical 25. FUNCTION NAME : toggleClass()</b></label><br>
+	<label> <b> practical 26. FUNCTION NAME : css())</b></label><br>
+		<div>
+			<p>$("p").css({"background-color": "yellow", "font-size": "200%"});</p>
+		</div>
+	<label> <b> practical 27. FUNCTION NAME : </b></label><br>
+	<label> <b> practical 28. FUNCTION NAME : </b></label><br>
+	<label> <b> practical 29. FUNCTION NAME : </b></label><br>
+	<label> <b> practical 30. FUNCTION NAME : </b></label><br>
+	<label> <b> practical 31. FUNCTION NAME : </b></label><br>
+</body>
+</html>

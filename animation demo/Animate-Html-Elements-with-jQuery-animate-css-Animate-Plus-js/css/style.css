@@ -1,0 +1,146 @@
+body
+{
+    font-family: sans-serif;
+    font-size: 11pt;
+    color: #333333;
+}
+
+h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+    font-weight: 300;
+    margin-top: 20pt;
+    letter-spacing: -0.04em;
+    color: #007bcc;
+}
+
+h2
+{
+    font-size: 1.1em;
+    margin-top: 10pt;
+    margin-bottom: 20pt;
+}
+
+a
+{
+    color: #ffa149;
+}
+
+ul, ol
+{
+    list-style-position: inside;
+    margin-bottom: 10pt;
+}
+
+ul
+{
+    list-style-type: disc;
+}
+
+ol
+{
+    list-style-type: decimal;
+}
+
+p, ul li, ol li
+{
+    line-height: 1.4em;
+}
+
+pre.prettyprint
+{
+    margin: 5pt;
+    padding: 5pt !important;
+    font-size: 0.8em;
+    font-family: Consolas, monospace;
+}
+
+
+@media screen and (max-width: 550px)
+{
+    h1
+    {
+        font-size: 3.4em;
+    }
+}
+
+#main
+{
+    max-width: 810pt;
+    margin: 0 auto;
+    padding: 0 10pt;
+}
+
+#main header, nav
+{
+    text-align: center;
+}
+
+#main #description
+{
+    margin: 40pt 0;
+}
+
+#main #description h3
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: 30pt;
+    margin-bottom: 10pt;
+}
+
+#main #description h4
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-bottom: 10pt;
+}
+
+#main #description p
+{
+    margin-bottom: 10pt;
+    text-align: justify;
+}
+
+#main #liveExamplesWrapper p:not(:first-child)
+{
+    margin-top: 30pt;
+}
+
+#main #liveExamplesWrapper .example
+{
+    padding: 10pt;
+    margin-bottom: 10pt;
+}
+
+#main #liveExamplesWrapper .example button
+{
+    display: block;
+    margin-top: 5pt;
+}
+
+#main #liveExamplesWrapper .example:nth-child(even)
+{
+    background-color: #f4f2f2;
+}
+
+#main #stats
+{
+    padding: 5pt;
+    font-size: 0.7em;
+    text-align: right;
+}
+
+.animate-plus
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: -0.04em;
+    color: #007bcc;
+}

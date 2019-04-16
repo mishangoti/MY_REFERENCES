@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datepicker With Quarter View Demos</title>
+  <link type="text/css" rel="Stylesheet"href="./css/datepicker.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="./jquery-date-picker.js"></script>
+  <script>
+    $( function() {
+      function test(date){
+        console.log('hey its working',date);
+      }
+      function beforeShow(input,picker){
+        console.log('beforeShow:',input,picker);
+
+      }
+      $( '.start_date_call' ).jqueryDatePicker({
+        format:'dd-M-yyyy',
+        beforeShow:beforeShow,
+        onSelect:function(date){ test(date); }
+      });
+      $( '.end_date_call' ).jqueryDatePicker({defaultView:'quarter'});
+    });
+
+  </script>
+<style>
+body { background-color: #fafafa; }
+</style>
+</head>
+<body>
+  <div style="margin:150px">
+    <h1>Datepicker With Quarter View Demos</h1>
+    <div class="form-group" style="float: left; width: 300px;" >
+      <input class="form-control datepicker start_date_call" id="datepicker" placeholder="Start Date" required="" type="text">
+    </div>
+    <div  class="form-group" style="float: right;width: 300px;" >
+      <input class="form-control datepicker end_date_call" id="datepicker1" placeholder="End Date" required="" type="text" >
+    </div>
+  </div>
+</body>
+</html>

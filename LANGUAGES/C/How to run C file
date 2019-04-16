@@ -1,0 +1,9 @@
+1>  for compile
+
+	-> gcc file_name -o oject_name
+		(object name can be any thing)
+		
+2>  for run
+
+	-> ./object_name
+		(object name which we created erliar)

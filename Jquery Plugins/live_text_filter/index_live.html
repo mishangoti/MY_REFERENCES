@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Live Text Search And Filter Function Using jQuery </title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-2468306962361582",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10&appId=1577559479210791";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+	<header>
+		<div class="head_left">
+			<img src="assets/image/logo.png"   >
+		</div>
+        <div class="head_right">
+            <div class="fb-like" data-href="https://www.facebook.com/codecastra" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true">
+            </div>
+            <a href="https://twitter.com/codecastra" class="twitter-follow-button" data-show-count="false">Follow @codecastra</a>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <script src="https://apis.google.com/js/platform.js" async defer></script>
+            <div class="g-follow" data-annotation="bubble" data-height="20" data-href="//plus.google.com/u/0/114619356348011871120" data-rel="author"></div>
+        </div>
+	</header>
+	<p class="main_title">
+		Live Text Search And Filter Function Using jQuery<br/>
+		<a href="http://www.codecastra.com/live-text-search-filter-using-jquery"><small>← Back to article</small></a>
+	</p>
+	<section class="main">
+		<div class="inner">
+			<div class="img_p">
+				<img src="assets/image/filter.svg" class="img" height="170px" width="170px"> 
+			</div>
+			<p class="inner_p">
+				Search and filtering features are commonly used in every data list. Here we finds all divs containing as per textbox searches and hide rest all of div:)
+			</p>
+
+			<form id="live-search" action="" class="styled" method="post">
+			        <input type="text" class="text-input" id="filter-text" placeholder="Search Name, Mobile, Account Number" value="" name="filter-text" />
+			</form>
+
+			<div class="mt-element-list">
+                <div class="mt-list-head list-default ext-1 bg-blue-chambray font-white">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="list-head-title-container">
+                                <h3 class="list-title uppercase sbold">Data List</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-list-container list-default ext-1">
+                    <ul>
+                        <li class="mt-list-item " data-name="Sunny Khatri" data-act="33967153133" data-bank="STATE BANK OF INDIA" data-ifsc="SBIN0000000" data-mobile="9033580922">
+                            <div class="list-item-content">
+                                <h3 class="uppercase">
+                                <a href="javascript:;">Sunny Khatri</a>
+                                </h3>
+                                <p>33967153133 | STATE BANK OF INDIA | SBIN0000000 | 9033580922</p>
+                            </div>
+                        </li>
+                        <li class="mt-list-item" data-name="Bhupesh Kushwaha" data-act="33967153133" data-bank="STATE BANK OF INDIA" data-ifsc="SBIN0000000" data-mobile="9033580922">
+                            <div class="list-item-content">
+                                <h3 class="uppercase"> <a href="javascript:;">Bhupesh Kushwaha</a> </h3>
+                                <p>33967153134 | HDFC BANK | SBIN0000002 | 9033580921</p>
+                            </div>
+                        </li>
+                        <li class="mt-list-item" data-name="Pratik Desai" data-act="33967153133" data-bank="STATE BANK OF INDIA" data-ifsc="SBIN0000000" data-mobile="9033580922">
+                            <div class="list-item-content">
+                                <h3 class="uppercase"> <a href="javascript:;">Pratik Desai</a> </h3>
+                                <p>33967153135 | BANK OF BARODA | SBIN0000003 | 9033580923</p>
+                            </div>
+                        </li>
+                        <li class="mt-list-item " data-name="Mayur Gohel" data-act="33967153133" data-bank="STATE BANK OF INDIA" data-ifsc="SBIN0000000" data-mobile="9033580922">
+                            <div class="list-item-content">
+                                <h3 class="uppercase"> <a href="javascript:;">Mayur Gohel</a> </h3>
+                                <p>33967153136 | BANK OF INDIA | SBIN0000004 | 9033580924</p>
+                            </div>
+                        </li>
+                        <li class="mt-list-item" data-name="Maroof Kagzi" data-act="33967153137" data-bank="ICICI Bank" data-ifsc="SBIN0000005" data-mobile="9033580925">
+                            <div class="list-item-content">
+                                <h3 class="uppercase"> <a href="javascript:;">Maroof Kagzi</a> </h3>
+                                <p>33967153137 | ICICI Bank | SBIN0000005 | 9033580925</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+			
+		</div>
+	</section>
+	<section class="content content--related">
+		<p>If you enjoyed this demo you might also like:</p>
+		<a class="media-item" href="http://www.codecastra.com/deep-linking-mobile-app-website/">
+			<img class="media-item__img" src="assets/related/related_deeplinking.png">
+			<h3 class="media-item__title">Deep Linking To Mobile App From Website</h3>
+		</a>
+		<a class="media-item" href="http://www.codecastra.com/login-twitter-using-php/">
+			<img class="media-item__img" src="assets/related/related_pusnotification.png">
+			<h3 class="media-item__title">Fcm Push Notification Using Php</h3>
+		</a>
+        <a class="media-item" href="http://www.codecastra.com/login-google-using-php/">
+            <img class="media-item__img" src="assets/related/related_goole.png">
+            <h3 class="media-item__title">Login & Registration With  Google</h3>
+        </a>
+        <a class="media-item" href="http://www.codecastra.com/login-twitter-using-php/">
+            <img class="media-item__img" src="assets/related/related_twitter.png">
+            <h3 class="media-item__title">Login & Registration With  Twitter</h3>
+        </a>
+	</section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $("body").on('keyup','#filter-text',function(e){
+            e.preventDefault();
+            var txt=$('#“filter-text').val();
+            var regEx = new RegExp($.map($(this).val().trim().split(' '), function(v) {
+                    return '(?=.*?' + v + ')';
+                }).join(''), 'i');
+
+            $('.mt-list-item').hide().filter(function() {
+                return regEx.exec($(this).text());
+            }).show();
+        });
+    });
+    </script>
+</body>
+</html>

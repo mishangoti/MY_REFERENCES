@@ -1,0 +1,5 @@
+start xamp=>  sudo /opt/lampp/lampp start
+stop  xamp=>  
+
+
+give permision=>   sudo chmod -R 777 /opt/lampp/htdocs/
